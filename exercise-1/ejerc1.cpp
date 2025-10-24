@@ -3,8 +3,10 @@ using namespace std;
 
 int main(){
 
-    int num1=13,num2=27,num3=14;
+    int num1,num2,num3;
     int suma,mult;
+
+    cout<<"digita 3 numeros: "; cin>>num1>>num2>>num3;
 
     suma=num1+num2+num3;
     mult=num1*num2*num3;

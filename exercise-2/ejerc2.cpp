@@ -3,13 +3,15 @@ using namespace std;
 
 int main(){
 
-    int num1=22, num2=8;
+    int num1;
 
-    if( num1 % num2==0){
-        cout<<num1<<" si es multiplo de "<<num2<<endl;
+    cout<<"Digita un numero: "; cin>>num1;
+
+    if( num1 % 2==0){
+        cout<<"El numero que digitaste es par"<<endl;
     }
     else{
-        cout<<"El "<<num1<<" No es multiplo de "<<num2<<endl;
+        cout<<"El numero que digitaste es impar"<<endl;
     }
 
     return 0;

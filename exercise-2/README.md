@@ -25,7 +25,9 @@ Ingrese dos enteros: 22 8
 2. ¿Qué pasa si colocamos un punto y coma (;) después del final de la expresión de condición de una declaración if? A la hora de compilar lo marca como erroneo y no se ejecuta.
 
 3. Modifique el programa para determinar si un número ingresado es par o impar. [Nota: Ahora, el usuario necesita ingresar solo un número.]
+![alt text](image-1.png)
 
 ## ✅ Resultado
 
 (Añadir captura de pantalla del resultado de la ejecución)
+![alt text](image.png)
