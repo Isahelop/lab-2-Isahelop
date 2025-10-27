@@ -15,12 +15,12 @@ Ingrese dos enteros: 22 8
 
    | Entero 1 | Entero 2 | Expresión        | Salida |
    | -------- | -------- | ---------------- | ------ |
-   | 73       | 22       | cout << 73 % 22; |        |
-   | 0        | 100      | cout << 0 % 100; |        |
-   | 100      | 0        | cout << 100 % 0; |        |
-   | -3       | 3        | cout << -3 % 3;  |        |
-   | 9        | 4.5      | cout << 9 % 4.5; |        |
-   | 16       | 2        | cout << 16 % 2;  |        |
+   | 73       | 22       | cout << 73 % 22; |    7   |
+   | 0        | 100      | cout << 0 % 100; |    0   |
+   | 100      | 0        | cout << 100 % 0; |  error |
+   | -3       | 3        | cout << -3 % 3;  |    0   |
+   | 9        | 4.5      | cout << 9 % 4.5; |  error |
+   | 16       | 2        | cout << 16 % 2;  |    0   |
 
 2. ¿Qué pasa si colocamos un punto y coma (;) después del final de la expresión de condición de una declaración if? A la hora de compilar lo marca como erroneo y no se ejecuta.
 

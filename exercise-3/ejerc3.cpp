@@ -13,6 +13,7 @@ int main(){
     dmil=num%10; num/=10;
 
     switch(dmil){
+        case 0: cout<<" 0 "; break;
         case 1: cout<<" 1 "; break;
         case 2: cout<<" 2 "; break;
         case 3: cout<<" 3 "; break;
